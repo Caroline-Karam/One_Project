@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.navbar-bg{
+  background: linear-gradient(to right, #5203AE, #C434FF);
+}
+
+.gradient-bg {
+  background: linear-gradient(to right, #5203AE, #C434FF);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+$main-color: white;
+
+
+.text-main{
+  color: $main-color;
+}
+
+.custom-button {
+  background-color: white;
+  color: #7900E6;
+  border: 2px solid #7900E6;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: semibold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #BB00DF;
+  color: white;
+  transform: scale(0.95);
+}
+
