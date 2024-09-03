@@ -12,16 +12,18 @@ import { HomeComponent } from '../home/home.component';
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
-  // isMainNavbarVisible: boolean = true;
 
-  // toggleNavbar(): void {
-  //   this.isMainNavbarVisible = !this.isMainNavbarVisible;
-  // }
+  isMenuOpen = false;
 
-  isSecondNavbarVisible = false;
-
-  toggleNavbar() {
-    this.isSecondNavbarVisible = !this.isSecondNavbarVisible;
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
   }
+
+  isListVisible = false;
+
+  toggleList() {
+    this.isListVisible = !this.isListVisible;
+  }
+ 
 
 }
